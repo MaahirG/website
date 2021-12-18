@@ -67,20 +67,19 @@ class Experience extends Component {
           </div>
         </div>
         <div className="col-md-8 mx-auto" style={{overflow: 'hidden', maxwidth: '100vw'}}>
-            <VerticalTimeline>
-              {work}
-                <VerticalTimelineElement
-                  // visible={true}
-                  iconStyle={{
-                    background: "#AE944F",
-                    color: "#fff",
-                    textAlign: "center",
-                  }}
-                  icon={
-                    <i className="fas fa-hourglass-start mx-auto experience-icon fa-xs"></i>
-                  }
-                />
-            </VerticalTimeline>
+          <VerticalTimeline>
+            {work}
+            <VerticalTimelineElement
+              // visible={true}
+              iconStyle={{
+                background: "#AE944F",
+                color: "#fff",
+                textAlign: "center",
+              }}
+              icon={<i className="fas fa-hourglass-start experience-icon"></i>}
+            />
+          </VerticalTimeline>
+          <br></br><br></br>
         </div>
       </section>
     );

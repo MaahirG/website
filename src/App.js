@@ -34,10 +34,8 @@ class App extends Component {
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-    document
-      .getElementById(pickedLangIconId)
+    document.getElementById(oppositeLangIconId)
+    document.getElementById(pickedLangIconId)
   }
 
   componentDidMount() {

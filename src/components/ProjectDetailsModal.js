@@ -57,7 +57,7 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h2 style={{ padding: "5px 5px 0 5px" }}>
               {title}
               {url ? (
                 <a
@@ -72,8 +72,8 @@ class ProjectDetailsModal extends Component {
                   ></i>
                 </a>
               ) : null}
-            </h3>
-            <p className="modal-description">{description}</p>
+            </h2>
+            <h1 className="modal-description">{description}</h1>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
