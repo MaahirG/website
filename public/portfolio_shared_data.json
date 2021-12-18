@@ -1,0 +1,134 @@
+{
+    "basic_info": {
+      "name": "Maahir Gupta",
+      "titles": [ "Backend Engineering", "Machine Learning" , "Autonomous Vehicles", "Robotics" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/MaahirG",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/maahirgupta/",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "Resume",
+          "url": "https://drive.google.com/file/d/1pquMDxGa3dAodilFH0i3MxslRYPa1Hho/view?usp=sharing",
+          "class": "fas fa-file-pdf"
+        }
+
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Backend Dev",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "ML + Platform",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "AVs & Robotics",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Python",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "C++",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Go",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "gRPC",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "RESTAPIs",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "MERN",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "PyTorch",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "ROS",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Docker",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "PyData Stack",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "AWS",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Dash",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "MLFlow",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Linux",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Rviz",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Carla Sim",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "OpenCV",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "git",
+          "class": "",
+          "level": "95"
+        }
+      ]
+    }
+  }

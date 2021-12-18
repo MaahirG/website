@@ -1,0 +1,290 @@
+{
+    "basic_info": {
+      "description_header": "👋 Hi, I'm Maahir!",
+      "description": "I'm a 3rd year Software Engineering student at UWaterloo, with a background in Mechatronics. I have experience with backend development at scale through my current internship at Wish, end-to-end machine learning experience from all 3 of my internships + side projects (below), and AV experience through design teams and personal projects!",
+      "section_name": {
+        "about": "",
+        "projects": "Projects & Documentation",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Autonomous Mini Car",
+        "startDate": "2020/21",
+        "description": "I took the ideas I had bottled up in my head about how AV Software is architected, and implemented, paired it with some design team experience, and built my very own autonomous mini car from scratch!",
+        "images": [
+          "images/portfolio/minicar/MiniCar.jpg",
+          "images/portfolio/minicar/AutonomousMiniCar.gif"
+        ],
+        "url": "https://github.com/MaahirG/Portfolio#project-1-software-stack-from-scratch-for-my-autonomous-mini-car",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      },
+      {
+        "title": "Backend Microservice Design",
+        "startDate": "2021",
+        "description": "Architected and implemented an end-to-end solution that enables centralized data processing for a massive codebase as an intern!",
+        "images": [
+          "images/portfolio/SystemDesign/SysDesign.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-go-plain",
+            "name": "Go"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "AV Scene Understanding",
+        "startDate": "2021",
+        "description": "As a core member of the WATonomous design team, this was the culmination of my design and code contribution to our environment modeling module (part of perception). After integration and testing, my code was used in our Autonomous Chevy Bolt, on real roads as a part of the GM AutoDrive Challenge!",
+        "images": [
+          "images/portfolio/WATO/CarlaSimWorkFlow.png",
+          "images/portfolio/WATO/AutonomousPathPlanning.gif",
+          "images/portfolio/WATO/AutoWatoBolt.png",
+          "images/portfolio/WATO/watoAlgo.png"
+        ],
+        "url": "https://github.com/MaahirG/Portfolio#project-3-software--publication---path-planning--environment-modeling-for-chevy-bolt-ev---watonomous-design-team",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++ & ROS"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Swap Robotics Robot",
+        "startDate": "2020",
+        "description": "Some awesome pictures of one of our company robots in all its glory.",
+        "images": [
+          "images/portfolio/SwapRobotics/SwapRobotics1.jpg",
+          "images/portfolio/SwapRobotics/SwapRobotics2.jpg"
+        ],
+        "url": "https://www.swaprobotics.com/",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python & PyTorch"
+          }
+        ]
+      },
+      {
+        "title": "Backend ML System Design",
+        "startDate": "2021",
+        "description": "This is a highlevel architecture diagram that I developed as part of a previous internship. We followed this architecture in building out our recommendation system (yellow) and the green shows my end-to-end work as a Machine Learning Engineer building 1 of 2 potential models, to be the brains of our system.",
+        "images": [
+          "images/portfolio/MLAppBackend/MLAppBackend.png"
+        ],
+        "url": "https://github.com/MaahirG/Portfolio#project-2-machine-learning-application-backend-workflow-mlswe-intern",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python & PyTorch"
+          }
+        ]
+      },
+      {
+        "title": "Robotic Prostethic Arm",
+        "startDate": "2019",
+        "description": "This arm was as fun attempt at building an affordable prosthetic (POC of course). It included adjustable pinching force (incl. PID control algo), ability to hold a pencil and eraser (+write and erase), could play rock paper scissors, as well as some more functionality. ",
+        "images": [
+          "images/portfolio/Robothand/cyborghand.svg"
+        ],
+        "url": "https://www.youtube.com/watch?v=mdVFzBSiMns",
+        "technologies": [
+          {
+            "class": "devicon-c-plain",
+            "name": "C"
+          }
+        ]
+      },
+      {
+        "title": "Computer Vision Product",
+        "startDate": "2020",
+        "description": "This is a project I worked on at a previous coop, where I built a robot mounted image classification system to detect sidewalk defects. I built the depth camera pipeline, and trained and deployed a CNN based classification system with the collected data.",
+        "images": [
+          "images/portfolio/DepthData/depthImage.jpg"
+        ],
+        "url": "https://github.com/MaahirG/DepthDataApplication",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python & Tensorflow"
+          },
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      },
+      {
+        "title": "Vechicle Tracking System",
+        "startDate": "2019/20",
+        "description": "Here we have an architecture diagram of our vehicle tracking system built for the autonomous part of the EcoCar Challenge. It includes sensor interfacing, noise reduction, sensor fusion (via data association, kalmnan filtering).",
+        "images": [
+          "images/portfolio/EcoCar/EcoCarUWAFTDesign.png"
+        ],
+        "url": "https://github.com/MaahirG/Portfolio#project-4-vehicle-tracking-system-diagram---sensor-fusion-on-ecocar-design-team",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++ & ROS"
+          }
+        ]
+      },
+      {
+        "title": "Computer Vision Security",
+        "startDate": "2019",
+        "description": "Built a smart security system that leverages various computer vision techniques to find and track people as they move around (servo motor moves the camera to follow you). The picture is disassembled as I used reused the parts for a new project.",
+        "images": [
+          "images/portfolio/SecurityCam/SmartSecurityCamera.jpg"
+        ],
+        "url": "https://github.com/MaahirG/SmartSecuritySystem",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      },
+      {
+        "title": "Research Paper",
+        "startDate": "2020",
+        "description": "Co-authored a research paper based on environment modeling (scene understanding) approaches developed by the WATonomous design team.",
+        "images": [
+          "images/portfolio/WATO/EnvModelResearchPaper.png"
+        ],
+        "url": "https://github.com/MaahirG/EnvModelingResearchPaper",
+        "technologies": [
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          }
+        ]
+      }
+
+    ],
+    
+    "experience": [
+      {
+        "occ": "",
+        "company": "Software Engineer Intern (Search & Recommendations Team)",
+        "title": "Wish",
+        "years": "Sept. 2021 - Dec. 2021",
+        "mainTech": [
+          "Golang"
+        ],
+        "technologies": [
+          "Go",
+          "Python",
+          "gRPC",
+          "Kubernetes",
+          "Grafana",
+          "FlinkETL",
+          "Airflow",
+          "SQS",
+          "Docker",
+          "MongoDB",
+          "Memcached",
+          "FluentHTTP",
+          "Microservices"
+        ]
+      },
+      {
+        "company": "Machine Learning Engineer Intern",
+        "title": "PerkinElmer, Inc.",
+        "years": "Jan. 2021 - Apr. 2021",
+        "mainTech": [
+          "Python"
+        ],
+        "technologies": [
+          "Python", 
+          "PyTorch",
+          "Linux", 
+          "PyData Stack",
+          "Dash",
+          "AWS",
+          "MLFlow",
+          "MongoDB",
+          "LSTM",
+          "Transformer",
+          "CNN",
+          "UNet"
+        ]
+      },
+      {
+        "company": "Software Engineer (AutoDrive Challenge)",
+        "title": "WATonomous Design Team",
+        "years": "Sept. 2020 - Sept. 2021",
+        "mainTech": [
+          "C++"
+        ],
+        "technologies": [
+          "C++", 
+          "Python",
+          "ROS",
+          "Rviz",
+          "Carla Simulator",
+          "Linux", 
+          "TensorFlow",
+          "Docker",
+          "CNN"
+        ]
+      },
+      {
+        "company": "Software Engineer Intern",
+        "title": "Swap Robotics",
+        "years": "May. 2020 - Aug. 2020",
+        "mainTech": [
+          "C++"
+        ],
+        "technologies": [
+          "C++", 
+          "Python", 
+          "Linux", 
+          "TensorRT", 
+          "Embedded Systems", 
+          "ROS", 
+          "TensorFlow", 
+          "CNN"
+        ]
+      },
+      {
+        "company": "Software Engineer (EcoCar Challenge)",
+        "title": "UWAFT Design Team",
+        "years": "Nov. 2019 - May. 2020",
+        "mainTech": [
+          "C++"
+        ],
+        "technologies": [
+          "C++",
+          "ROS",
+          "CMake",
+          "Docker",
+          "Linux",
+          "CAN",
+          "Nearest Neighbor",
+          "Kalman Filter"
+        ]
+      }
+    ]
+  }
