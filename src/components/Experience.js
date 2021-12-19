@@ -31,6 +31,7 @@ class Experience extends Component {
         return (
             <VerticalTimelineElement
               // visible={true}
+              position={'left'}
               className="vertical-timeline-element--work"
               date={work.years}
               iconStyle={{
