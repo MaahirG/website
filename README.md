@@ -18,7 +18,7 @@ npm run deploy (See next section for custom url deploy, else do: npm run deploy 
 
 
 ## Procedure to setup a gh-pages hosted react app from scratch:
-#### NOTE: if starting from scratch, copy and paste the src, public, package.json, package-lock.json files from this repo into the react app folder that is created after *completing* the steps below, and then npm install and npm run deploy will deploy my website.
+#### NOTE: if starting from scratch, copy and paste the src, public, package.json, package-lock.json files from this repo into the react app folder that is created *after completing* the steps below, and then npm install and npm run deploy will deploy my website.
 
 [Credit to this repo](https://github.com/gitname/react-gh-pages/blob/master/README.md)
 
