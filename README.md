@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## Deploy Website 
+#### (i.e. not creating new react app from scratch):
+```
+git clone
+npm install
+npm install gh-pages --save-dev
+npm start (localhost testing)
+npm run deploy (See next section for custom url deploy, else do: npm run deploy after completing Step 4. below in package.json, where homepage is your *github.io* url.
+```
+### Deplyoment w/custom url:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Configure [apex](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-an-apex-domain-for-your-github-pages-site) and cname addresses through domain provider e.g. domains.google.com.
+    * [Steps to configure domain provider and link custom url to GitHub repo](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
 
-## Available Scripts
+2. Complete Step 4. below in package.json, where homepage is your *custom* url.
 
-In the project directory, you can run:
+3. npm run deploy (build and deploy changes to gh-pages branch)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Procedure to setup a gh-pages hosted react app from scratch:
+#### NOTE: if starting from scratch, copy and paste the src, public, package.json, package-lock.json files from this repo into the react app folder that is created *after completing* the steps below, and then npm install and npm run deploy will deploy my website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Credit to this repo](https://github.com/gitname/react-gh-pages/blob/master/README.md)
 
-### `npm test`
+1. **Create an empty repository on GitHub.**
+2. **Create React app on your computer.**
+    ```
+    $ create-react-app git-repo-name
+    ```
+3. **Install the `gh-pages` package as a "dev-dependency" of the app.**
+    ```
+    $ cd git-repo-name
+    $ npm install gh-pages --save-dev
+    ```
+4. **Add some properties to the app's `package.json` file.**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    * Add a `homepage` property. Define its value to be the string `http://{username}.github.io/{git-repo-name}`
+    ```
+    "homepage": "http://gitname.github.io/git-repo-name"
+    ```
+    * In the existing `scripts` property, add a `predeploy` property and a `deploy` property, each having the values shown below:
+    ```
+    "scripts": {
+      //...
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+    ```
+5. **Create a git repo and add repo as "remote" in your local git repository.**
+    ```
+    $ git init
+    $ git remote add origin https://github.com/gitname/git-repo-name.git
+    ```
+    * So the `gh-pages` package knows where you want it to deploy your app in step 7.
+6. **Generate a *production build* of your app, and deploy it to GitHub Pages.**
+    ```
+    $ npm run deploy
+    ```
+    * App is now accessible at the URL you specified in step 4. E.g. at: https://gitname.github.io/git-repo-name/
+    * At this point a `master` branch DNE, a `gh-pages` branch does exist. the `gh-pages` branch contains *built* app code instead of source code.
+7. **Commit your source code to master.**
+    ```
+    $ git add .
+    $ git commit -m "Create a React app and publish it to GitHub Pages"
+    $ git push origin master
+    ```
+    
+ ## Helpful references along the way:
+ * https://github.com/gitname/react-gh-pages
+ * https://www.youtube.com/watch?v=6Rto09ElUuY
+ * https://github.com/stephane-monnot/react-vertical-timeline
