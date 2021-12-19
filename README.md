@@ -10,7 +10,7 @@ npm run deploy (See next section for custom url deploy, else do: npm run deploy 
 ### Deplyoment w/custom url:
 
 1. Configure [apex](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-an-apex-domain-for-your-github-pages-site) and cname addresses through domain provider e.g. domains.google.com.
-- [Steps to configure domain provider and link custom url to GitHub repo](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
+    * [Steps to configure domain provider and link custom url to GitHub repo](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
 
 2. Complete Step 4. below in package.json, where homepage is your *custom* url.
 
@@ -66,5 +66,6 @@ npm run deploy (See next section for custom url deploy, else do: npm run deploy 
     ```
     
  ## Helpful references along the way:
- - https://github.com/gitname/react-gh-pages
- - https://www.youtube.com/watch?v=6Rto09ElUuY
+ * https://github.com/gitname/react-gh-pages
+ * https://www.youtube.com/watch?v=6Rto09ElUuY
+ * https://github.com/stephane-monnot/react-vertical-timeline
