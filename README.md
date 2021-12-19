@@ -1,10 +1,11 @@
-## Deploy Website (i.e. not creating new react app from scratch):
+## Deploy Website 
+#### (i.e. not creating new react app from scratch):
 ```
 git clone
 npm install
 npm install gh-pages --save-dev
 npm start (localhost testing)
-npm run deploy (See next section for custom url deploy, else npm run deploy after completing Step 4. below in package.json, where homepage is your *github.io* url.
+npm run deploy (See next section for custom url deploy, else do: npm run deploy after completing Step 4. below in package.json, where homepage is your *github.io* url.
 ```
 ### Deplyoment w/custom url:
 
