@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "👋 Hi, thanks for stopping by!",
-      "description": "I'm a 3rd year Software Engineering student at UWaterloo, with a background in Mechatronics! I enjoy and have experience with backend development at scale through my 3rd internship at Wish, end-to-end machine learning experience through all my internships as well as side projects (more below), and AV experience through 2 university design teams and personal projects!",
+      "description_header": "👋 Hi, welcome to my corner of the internet!",
+      "description": "I'm a 3rd year Software Engineering student at UWaterloo with a background in Mechatronics! I enjoy and have experience with backend development at scale through my 3rd internship at Wish, end-to-end machine learning experience from all of my internships as well as side projects, and autonomous driving experience through university student teams and personal projects. Additionally, I'm always on the lookout for SWE internship opportunities!",
       "section_name": {
         "about": "",
         "projects": "Projects & Documentation",
@@ -37,7 +37,7 @@
         "images": [
           "images/portfolio/SystemDesign/SysDesign.png"
         ],
-        "url": "https://github.com/MaahirG/Portfolio#project-5-backend-microservice-design-during-internship",
+        "url": "https://github.com/MaahirG/Portfolio/blob/main/media/SysDesign.png",
         "technologies": [
           {
             "class": "devicon-go-plain",
@@ -107,9 +107,12 @@
         "startDate": "Project",
         "description": "This arm was as fun attempt at building an affordable prosthetic (POC of course). It included adjustable pinching force (incl. PID control algo), ability to hold a pencil and eraser (+write and erase), could play rock paper scissors, as well as some more functionality. ",
         "images": [
-          "images/portfolio/Robothand/cyborghand.svg"
+          "images/portfolio/Robothand/arm.png"
         ],
-        "url": "https://www.youtube.com/watch?v=mdVFzBSiMns",
+        "url": [
+          "https://www.youtube.com/watch?v=mdVFzBSiMns",
+          "https://github.com/MaahirG/ProstheticHand"
+        ],
         "technologies": [
           {
             "class": "devicon-c-plain",
@@ -144,7 +147,7 @@
           "images/portfolio/EcoCar/EcoCarUWAFTDesign.png",
           "images/portfolio/EcoCar/uwaftcamaro.png"
         ],
-        "url": "https://github.com/MaahirG/Portfolio#project-4-vehicle-tracking-system-diagram---sensor-fusion-on-ecocar-design-team",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
@@ -159,7 +162,7 @@
         "images": [
           "images/portfolio/WATO/EnvModelResearchPaper.png"
         ],
-        "url": "https://github.com/MaahirG/EnvModelingResearchPaper",
+        "url": "https://github.com/MaahirG/EnvModelingResearchPaper#environment-modeling-techniques-for-enhanced-behavioral-planning-in-urban-autonomous-driving",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
@@ -219,7 +222,7 @@
       },
       {
         "company": "Software Engineer (AutoDrive Challenge)",
-        "title": "WATonomous Design Team",
+        "title": "WATonomous Student Team",
         "years": "Sept. 2020 - Sept. 2021",
         "mainTech": [
           "C++"
@@ -256,7 +259,7 @@
       },
       {
         "company": "Software Engineer (EcoCar Challenge)",
-        "title": "UWAFT Design Team",
+        "title": "UWAFT Student Team",
         "years": "Nov. 2019 - May. 2020",
         "mainTech": [
           "C++"
