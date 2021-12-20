@@ -9,16 +9,15 @@
           "class": "fab fa-github"
         },
         {
+          "name": "Resume",
+          "url": "https://drive.google.com/file/d/1tk9bCc-kaZXEH6K8I7Bpssrb92_6dm23",
+          "class": "fas fa-file-pdf"
+        },
+        {
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/maahirgupta/",
           "class": "fab fa-linkedin"
-        },
-        {
-          "name": "Resume",
-          "url": "https://drive.google.com/file/d/1O9uAjZ6ClalXtQhVAiz-VA0mw50XuwRY",
-          "class": "fas fa-file-pdf"
         }
-
       ],
       "image": "myProfile.jpg"
     },
