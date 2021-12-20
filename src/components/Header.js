@@ -55,7 +55,6 @@ class Header extends Component {
                 {"SWE | Backend | ML/DL/AI | Autonomous | Robotics"}
                 {/* <Typical steps={["Backend | ML | Autonomous | Robotics"]} wrapper="p" /> */}
               </h4>
-
             </div>
           </div>
       </header>

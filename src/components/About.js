@@ -17,6 +17,7 @@ class About extends Component {
 
     return (
       <section id="about">
+        <br></br>
         <div className="col-md-12">
           <h2 style={{ color: "black" }}>
             <span>{sectionName}</span>
@@ -56,7 +57,7 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br>
       </section>
     );
   }
