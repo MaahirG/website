@@ -185,16 +185,8 @@
         "technologies": [
           "Go",
           "Python",
-          "gRPC",
           "Kubernetes",
           "Grafana",
-          "FlinkETL",
-          "Airflow",
-          "SQS",
-          "Docker",
-          "MongoDB",
-          "Memcached",
-          "FluentHTTP",
           "Microservices"
         ]
       },
