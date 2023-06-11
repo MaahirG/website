@@ -54,6 +54,31 @@
           "level": "95"
         },
         {
+          "name": "Kubernetes",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Kustomize",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Grafana",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "Prometheus",
+          "class": "",
+          "level": "95"
+        },
+        {
+          "name": "GraphQL",
+          "class": "",
+          "level": "95"
+        },
+        {
           "name": "gRPC",
           "class": "",
           "level": "95"

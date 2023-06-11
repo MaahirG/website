@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "👋 Hi, welcome to my corner of the internet!",
-      "description": "I'm a 3rd year Software Engineering student at UWaterloo with a background in Mechatronics! I enjoy and have experience with backend development at scale through my 3rd internship at Wish, end-to-end machine learning experience from all of my internships as well as side projects, and autonomous driving experience through university student teams and personal projects. Additionally, I'm always on the lookout for SWE internship opportunities!",
+      "description_header": "👋 Hi there!",
+      "description": "I'm a 4th year Software Engineering student at UWaterloo. Through 6 internships, side projects, student design teams and a good bit of curiousity, I've developed interest and experience in: backend SWE at scale, distributed systems, ML platform, deep learning and AVs to name a few fields. I've built out fleet management systems for robots at Google and Tesla, and am currently working on scaling ML Infra on the Autopilot team at Tesla. Previously worked with big data, ML and robotics at Wish, Perkin Elmer and Swap, respectively.",
       "section_name": {
         "about": "",
         "projects": "Projects & Documentation",
@@ -174,6 +174,68 @@
     ],
     
     "experience": [
+      {
+        "occ": "",
+        "company": "Software Engineer Intern (Tesla Autopilot)",
+        "title": "Tesla",
+        "years": "Sept. 2023 - Dec. 2023",
+        "mainTech": [
+          "Golang"
+        ],
+        "technologies": [
+          "Go",
+          "Python",
+          "gRPC",
+          "Kubernetes",
+          "Grafana",
+          "FlinkETL",
+          "Airflow",
+          "SQS",
+          "Docker",
+          "MongoDB",
+          "Memcached",
+          "FluentHTTP",
+          "Microservices"
+        ]
+      },
+      {
+        "occ": "",
+        "company": "Software Engineer Intern (Robotic Fleet Management)",
+        "title": "Tesla",
+        "years": "Jan. 2023 - May. 2023",
+        "mainTech": [
+          "Golang"
+        ],
+        "technologies": [
+          "Go",
+          "GraphQL",
+          "Kubernetes",
+          "Kustomize",
+          "Prometheus",
+          "Grafana",
+          "Trino",
+          "Microservices",
+          "Javascript",
+          "React"
+        ]
+      },
+      {
+        "occ": "",
+        "company": "Software Engineer Intern (X, Everyday Robots)",
+        "title": "Google",
+        "years": "May. 2022 - Aug. 2022",
+        "mainTech": [
+          "Golang"
+        ],
+        "technologies": [
+          "Go",
+          "Python",
+          "gRPC",
+          "Kubernetes",
+          "Docker",
+          "Microservices"
+        ]
+      },
       {
         "occ": "",
         "company": "Software Engineer Intern (Search & Recommendations Team)",
